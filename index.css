@@ -1,0 +1,18 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+.map {
+	width: 800px;
+	height: 600px;
+	background-color: gray;
+	margin: 50px auto;
+	position: relative;
+}
+span {
+	color: greenyellow;
+}

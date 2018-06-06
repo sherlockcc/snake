@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>贪吃蛇小游戏</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+
+	<body>
+		<h1>
+			贪吃蛇-
+			<span class="num">0</span>
+			分
+		</h1>
+		<div class="map" id="map">
+
+		</div>
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript">
+		var map = document.getElementById("map");
+
+		//创建一个游戏对象，游戏对象里面有食物、蛇、地图
+		var game = new Game(map);
+		game.start();
+	</script>
+
+</html>
